@@ -53,7 +53,7 @@ def get_weather(location: str):
 
 @tool
 def query_knowledge_base(query: str):
-    """Retrieve information about Brain tumors from the knowledge base using semantic search."""
+    """Retrieve information about Pratik Bhangale and Brain tumors from the knowledge base using semantic search."""
 
     # Initialize the embedding model
     embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
